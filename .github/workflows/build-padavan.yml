@@ -1,6 +1,7 @@
 name: Build RM2100-Padavan
 
 on: 
+  workflow_dispatch:
   release:
     types: [published]
   push:
